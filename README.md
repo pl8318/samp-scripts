@@ -1,2 +1,2 @@
 # samp-scripts
-okay
+functionality is not guaranteed
