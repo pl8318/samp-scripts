@@ -10,7 +10,7 @@ function main()
 	sampRegisterChatCommand("fmdline", fmd_lines)
 	while true do
 		wait(0)
-		rpkeys(playerid)
+		rpkeys()
 	end
 end
 
@@ -45,8 +45,7 @@ function send(a, b, c)
 	end
 end
 
-function rpkeys(a)
- --   local name = getPlayerName(a)
+function rpkeys()
 	if isKeyDown(0x12) then
 		if wasKeyPressed(0x31) then
 			fmd_lines("stopbleed")
